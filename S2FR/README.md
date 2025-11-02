@@ -107,7 +107,7 @@ Implementado hasta el momento:
 
 ### Herramientas y plataformas:
 
-- Git/GitHub (repositorio: https://github.com/rafaelsava/inundacionessoacha)
+- Git/GitHub
 
 - n8n (orquestador de workflows)
 
