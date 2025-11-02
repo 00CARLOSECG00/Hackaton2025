@@ -60,20 +60,20 @@ El prototipo actual demuestra cómo la tecnología puede potenciar el trabajo pr
 
 ## Imágenes de Prototipo Funcional Canal WhatsApp
 
-![WhastApp1](CanalWhatsApp1.png)
-![WhatsApp2](CanalWhatsApp2.png)
-![WhatsApp3](CanalWhatsApp3.png)
+![WhastApp1](CanalWhatsApp1.jpg)
+![WhatsApp2](CanalWhatsApp2.jpg)
+![WhatsApp3](CanalWhatsApp3.jpg)
 
 ## Imágenes de Prototipo Funcional Dashboard
 
-![Dashboard1](Dashboard1.png)
-![Dashboard2](Dashboard2.pg)
-![Dashboard3](Dashboard3.png)
+![Dashboard1](Dashboard1.jpg)
+![Dashboard2](Dashboard2.jpg)
+![Dashboard3](Dashboard3.jpg)
 
 ## Imágenes de Prototipo Funcional Alarmas
 
-![Alarmas1](Alarmas1.png)
-![Alarmas2](Alarmas2.pg)
+![Alarmas1](Alarmas1.jpg)
+![Alarmas2](Alarmas2.jpg)
 
 ## Link al Repositorio de la Solución
 
