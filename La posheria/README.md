@@ -12,7 +12,7 @@ Sabana Dining System es un *sistema* que digitaliza todo el proceso de venta y p
 
 
 ### Link de la presentación
-
+https://www.canva.com/design/DAG3jnDrBRw/gNFsWGZq4DUP1fwdg88Dgg/edit?utm_content=DAG3jnDrBRw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ### Link PDF de la documentación
 https://drive.google.com/file/d/1qt1nxDD3Du5wlpEAQBjYY1LW862s7c_a/view?usp=sharing
@@ -34,7 +34,7 @@ https://github.com/JuanGomePer/BackEnd-SabanaHack2025
 - **Base de Datos:** PostgreSQL
 - **Tablas principales:**
   - `productos` → Catálogo de items vendibles
-  - `usuarios` → Clientes registrados (6,650 usuarios)
+  - `usuarios` → Clientes Simulados (6,650 usuarios)
   - `ordenes` → Transacciones de compra con estado (PREPARANDO → LLAMANDO → COMPLETADA)
 
 #### **Frontend (React + TypeScript)**
@@ -76,10 +76,10 @@ https://github.com/JuanGomePer/BackEnd-SabanaHack2025
 **Módulo estrella del proyecto**
 
 **Tab 1: Dashboard Principal**
-- Métricas en tiempo real: Ventas totales ($264.5M), Transacciones (27,104), Ticket promedio
-- Filtros interactivos por punto de venta (11 puntos: pv-1 a pv-11)
+- Métricas en tiempo real: Ventas totales, Transacciones, Ticket promedio
+- Filtros interactivos por punto de venta
 - Gráficos con Chart.js:
-  - Evolución de ventas diarias (últimos 120 días)
+  - Evolución de ventas diarias (últimos 30 días)
   - Ventas por hora del día (identificación de horarios pico)
   - Variación porcentual entre puntos
   - Comparativa interactiva entre 2 puntos seleccionables
@@ -97,14 +97,14 @@ https://github.com/JuanGomePer/BackEnd-SabanaHack2025
 
 **Tab 3: Comportamiento del Usuario** 
 - Segmentación K-Means en 4 perfiles:
-  - **Cliente Premium** (847): Gasto $45,800, Recompra 0.266, +8%
-  - **Cliente Leal** (1,234): Gasto $28,500, Recompra 0.195, -12% 
-  - **Cliente Ocasional** (2,891): Gasto $15,600, Recompra 0.065
-  - **Cliente Nuevo** (1,678): Gasto $12,300, Recompra 0.083, +18%
+  - **Cliente Premium**: Gasto $45,800, Recompra 0.266, +8%
+  - **Cliente Leal**: Gasto $28,500, Recompra 0.195, -12% 
+  - **Cliente Ocasional**: Gasto $15,600, Recompra 0.065
+  - **Cliente Nuevo**: Gasto $12,300, Recompra 0.083, +18%
 - Filtros por punto de venta, perfil de cliente y período
 - Gráficos: Top 10 productos por perfil, distribución por categoría, puntos de venta frecuentes
 - Scatter plot: Gasto promedio vs. Índice de recompra
-- Evolución del índice de recompra (últimos 6 meses)
+- Evolución del índice de recompra (últimos 3 meses)
 - Alertas dinámicas con variaciones mensuales
 
 #### **Stack Tecnológico**
@@ -141,7 +141,9 @@ Alertas automáticas para gerencia
 
 ## La Solución tiene como Ventajas:
 
-### **1. Valor Agregado Real: Registramos sin hacer fila, cobramos sin pedir datos de nuevo, cocinamos sin papel y administramos con datos en tiempo real.**
+### **1. Valor Agregado Real:
+
+Registramos sin fila, cobramos sin repetir datos, cocinamos sin papel y administramos en tiempo real. Y por eso SABANA DINING SYSTEM no es un gasto, es una inversión inteligente: sustituye costos diarios por un sistema que se autofinancia en menos de un año, mantiene el ahorro y convierte a la universidad en oferente de tecnología.
 Mientras otros sistemas solo capturan transacciones, nosotros **convertimos cada orden en insights accionables**. El diferencial no es el punto de venta, es el **Dashboard de Analytics con IA** que multiplica el valor de cada dato capturado.
 
 ### **2. ROI Demostrable en Menos de 1 Año**
@@ -165,7 +167,7 @@ Mientras otros sistemas solo capturan transacciones, nosotros **convertimos cada
 - **Random Forest:** R² = 0.963 (96.3% de precisión en predicciones)
 - **K-Means Clustering:** Segmentación automática de 6,650 usuarios en 4 perfiles accionables
 - Predicciones a 30 días que permiten **decisiones proactivas**, no reactivas
-- (Pendiente por Sofi de reportes Diarios)
+- En ambos modelos se ejecutan reportes mensuales.
 
 ### **6. Escalabilidad Comercial Futura**
 - Arquitectura lista para **SaaS** (Software as a Service)
@@ -191,7 +193,7 @@ Mientras otros sistemas solo capturan transacciones, nosotros **convertimos cada
 ### **10. Valor Inmediato para Gerencia**
 - **Día 1:** Reducción de errores en órdenes (cocina digital)
 - **Mes 1:** Visibilidad total de ventas por punto/hora/producto
-- **Mes 2>** Reducción de rollos de papel termico
+- **Mes 2:** Reducción de rollos de papel termico
 - **Mes 3:** Predicciones activas y alertas de riesgo
 - **Mes 6:** Optimización completa de inventarios y personal
 
@@ -246,13 +248,13 @@ Mientras otros sistemas solo capturan transacciones, nosotros **convertimos cada
 - **Mitigación:** Visualización de datos desde el dia 1
 ---
 
-## Cifras Clave del Proyecto
+## Cifras Clave del Proyecto y Entrenamiento (Simulación)
 
 | Métrica | Valor |
 |---------|-------|
 | Transacciones diarias | 11,147 |
 | Puntos de venta | 11 |
-| Usuarios registrados | 6,650 |
+| Usuarios simulados | 6,650 |
 | Plazas operativas | 266 |
 | Proveedores | 136 |
 | Materia prima/día | 4,000 kl |
@@ -262,6 +264,9 @@ Mientras otros sistemas solo capturan transacciones, nosotros **convertimos cada
 | Payback period | 9-10 meses |
 | ROI a 3 años | $163,800,000 COP |
 
+## Nivel de Madurez 
+
+Prototipo Funcional Avanzado con backend desplegado en producción (Railway + PostgreSQL), frontend React completo en módulos operativos (registro, caja, facturación, entregas), y Dashboard de Analytics 100% desarrollado funcionando con datos sintéticos. Los modelos ML están validados conceptualmente y listos para entrenamiento con datos reales. El sistema está preparado para piloto inmediato en 2-3 puntos de venta.
 
 ---
 
