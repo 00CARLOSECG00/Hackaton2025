@@ -37,6 +37,9 @@ En conjunto, esta solución integra tecnología accesible, conocimiento local y 
 
 - Limitaciones de autonomía nocturna si hay baja radiación solar prolongada.
 
+### Nivel de desarrollo: Prototipo funcional
+
+Mas detalles se pueden encontrar en la carpeta de documentacion 
 
 ## Link del pitch
 
