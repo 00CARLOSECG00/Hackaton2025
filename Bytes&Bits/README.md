@@ -1,6 +1,6 @@
-# Bytes&Bits 🚀
+# Ficha Técnica Bytes&Bits 🚀
 
-Proyecto del equipo **Bytes&Bits** para Sabana Hack 2025 💙
+Sistema de Mitigación de Sufrimiento Humano
 
 ## Descripción de la Solución
 
